@@ -17,8 +17,6 @@ namespace GUI
         public frm_DoiMatKhau()
         {
             InitializeComponent();
-
-
         }
         BLL_Users b_user = new BLL_Users();
 

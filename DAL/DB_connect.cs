@@ -10,7 +10,8 @@ namespace DAL
 {
     public class DB_connect
     {
-        protected SqlConnection conn = new SqlConnection("Data Source=DESKTOP-81RSECA\\SQLEXPRESS;Initial Catalog=CSDL_QLBH;Integrated Security=True");
+        public string name = "";
+        protected SqlConnection conn = new SqlConnection("Data Source=DESKTOP-E3NRUFR;Initial Catalog=CSDL_QLBH;Integrated Security=True");
         public void Open_connection()
         {
             if (conn.State == ConnectionState.Closed)
