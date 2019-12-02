@@ -19,6 +19,8 @@ namespace GUI
             InitializeComponent();
         }
         BLL_Users b_user = new BLL_Users();
+
+
         BLL_NhatKiHeThong b_nkht = new BLL_NhatKiHeThong();
         public string Users_Name = "";
         public void Get_name_user(string name)
