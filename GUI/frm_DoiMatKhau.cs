@@ -18,6 +18,7 @@ namespace GUI
         {
             InitializeComponent();
 
+
         }
         BLL_Users b_user = new BLL_Users();
 
